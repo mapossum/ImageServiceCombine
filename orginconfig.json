@@ -1,0 +1,15 @@
+{
+	"ImageServices": [ {"url":"http://gis.usm.edu:6080/arcgis/rest/services/NRL/hycom/ImageServer", 
+	                   "label": "Salinity", 
+					   "variableName":"salinity"
+					   },
+					   {"url":"http://gis.usm.edu:6080/arcgis/rest/services/NRL/hycom/ImageServer", 
+	                   "label": "Surface Elevation", 
+					   "variableName":"surf_el"
+					   },
+					   {"url":"https://sampleserver6.arcgisonline.com/arcgis/rest/services/Toronto/ImageServer", 
+					   "label": "test",
+					   "variableName":"MS"
+					   }
+					   ]
+}
