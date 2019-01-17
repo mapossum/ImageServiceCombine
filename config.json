@@ -5,9 +5,17 @@
 					   },
 					   {"url":"http://gis.usm.edu:6080/arcgis/rest/services/NRL/hycom/ImageServer", 
 	                   "label": "Water Temperature", 
-					   "variableName":"surf_el"
+					   "variableName":"water_temp"
 					   },
-					   {"url":"https://sampleserver6.arcgisonline.com/arcgis/rest/services/Toronto/ImageServer", 
-					   "label": "test"}
-					   ]
+					   {"url":"http://gis.usm.edu:6080/arcgis/rest/services/NRL/hycom/ImageServer", 
+	                   "label": "Eastward Water Velocity", 
+					   "variableName":"water_u"
+					   }
+					   ,
+					   {"url":"http://gis.usm.edu:6080/arcgis/rest/services/NRL/hycom/ImageServer", 
+	                   "label": "Northward Water Velocity", 
+					   "variableName":"water_v"
+					   }
+					   ],
+	"masterDictionary": {"meter": "m", "Meters": "meters", "Valid Time": "Time"}
 }

@@ -3,3 +3,15 @@
 @import url(../noUiSlider/nouislider.css);
 
 
+.isdd {
+	margin: 5px;
+}
+
+.sliders {
+   width:300px;
+   margin:10px;
+}
+
+.c-1-color { background: green; }
+.c-2-color { background: yellow; }
+.c-3-color { background: red; }
